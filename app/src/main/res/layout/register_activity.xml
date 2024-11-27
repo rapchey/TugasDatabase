@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/gradient_background"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/registerLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/login"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Register App Logo" />
+
+    <TextView
+        android:fontFamily="@font/gotham"
+        android:id="@+id/title_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register Account"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:background="@drawable/edittext_radius"
+        android:fontFamily="@font/gotham"
+        android:id="@+id/registerUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="2dp" />
+
+    <EditText
+        android:background="@drawable/edittext_radius"
+        android:fontFamily="@font/gotham"
+        android:id="@+id/registerPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:elevation="2dp" />
+
+    <Button
+        android:fontFamily="@font/gotham"
+        android:backgroundTint="#1DB954"
+        android:id="@+id/registerSubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:elevation="3dp" />
+
+    <Button
+        android:fontFamily="@font/gotham"
+        android:backgroundTint="#1DB954"
+        android:id="@+id/backToLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="@font/gotham"
+        android:id="@+id/registerFooterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2024 MusicApp"
+        android:textSize="12sp"
+        android:textColor="#1DB954"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
